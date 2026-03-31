@@ -81,10 +81,20 @@ npm run dev
 cd ../frontend
 npm install
 ```
+Create a `.env` file in the `frontend` folder:
+```env
+VITE_API_URL=http://localhost:5000/api
+```
 Start the development server:
 ```bash
 npm run dev
 ```
+
+---
+
+## 🔐 Environment Templates
+
+For your convenience, `.env.example` files have been provided in both the `frontend` and `backend` directories. Use these as templates for your local environment configuration.
 
 ---
 
